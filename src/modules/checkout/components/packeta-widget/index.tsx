@@ -1,7 +1,8 @@
 "use client"
 
 import React, { useState, useEffect } from 'react'
-import { Button, Input, Modal } from "@medusajs/ui"
+import { Button, Input } from "@medusajs/ui"
+import Modal from "@modules/common/components/modal"
 
 interface PickupPoint {
   id: string
