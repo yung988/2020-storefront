@@ -37,6 +37,16 @@ const nextConfig = {
         protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
       },
+      // Allow all ngrok domains
+      {
+        protocol: "https",
+        hostname: "*.ngrok-free.app",
+      },
+      // Allow cloudflare tunnel domains (backup)
+      {
+        protocol: "https",
+        hostname: "*.trycloudflare.com",
+      },
     ],
   },
 }
